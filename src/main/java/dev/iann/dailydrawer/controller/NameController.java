@@ -1,5 +1,6 @@
 package dev.iann.dailydrawer.controller;
 
+import dev.iann.dailydrawer.models.Message;
 import dev.iann.dailydrawer.services.DrawName;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,9 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class NameController {
 
     @GetMapping
-    public String drawName() {
+    public Message drawName() {
         DrawName drawName = new DrawName();
 
-        return "The name drawn is " + drawName.execute();
+        return new Message(drawName.execute());
+
+//        return "The name drawn is " + drawName.execute();
     }
 }
