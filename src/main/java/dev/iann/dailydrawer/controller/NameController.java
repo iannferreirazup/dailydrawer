@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Scanner;
+
 @RestController
 @RequestMapping("/draw")
 public class NameController {
@@ -15,7 +17,5 @@ public class NameController {
         DrawName drawName = new DrawName();
 
         return new Message(drawName.execute());
-
-//        return "The name drawn is " + drawName.execute();
     }
 }

@@ -14,11 +14,11 @@ public class Names {
                 "Max",
                 "Tony",
                 "William",
-                "JJ",
+                "Jan",
+		"JJ",
                 "Josias",
                 "Vini",
                 "Túlio",
-                "Samuel",
                 "Jayder"
         );
     }
