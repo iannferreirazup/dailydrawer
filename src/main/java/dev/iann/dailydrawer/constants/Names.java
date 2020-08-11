@@ -15,11 +15,12 @@ public class Names {
                 "Tony",
                 "William",
                 "Jan",
-		"JJ",
+		        "JJ",
                 "Josias",
                 "Vini",
                 "Túlio",
-                "Jayder"
+                "Jayder",
+                "Juliana"
         );
     }
 }
