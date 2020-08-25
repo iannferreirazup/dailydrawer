@@ -8,19 +8,13 @@ public class Names {
         return Arrays.asList(
                 "Flávio",
                 "Hader",
-                "Flávio",
-                "Klyff",
                 "Iann",
-                "Max",
-                "Tony",
-                "William",
                 "Jan",
-		        "JJ",
-                "Josias",
-                "Vini",
-                "Túlio",
-                "Jayder",
-                "Juliana"
+                "Klyff",
+                "Luiz",
+                "Renan",
+                "Tony",
+                "Vini"
         );
     }
 }
